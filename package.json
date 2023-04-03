@@ -1,0 +1,28 @@
+{
+  "name": "niosh",
+  "version": "0.0.1",
+  "description": "collection of shell commands for speed up work",
+  "main": "index.js",
+  "scripts": {
+    "test": "node -e \"console.log('hello world!');\""
+  },
+  "bin": {
+    "niosh": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/niosz/niosz-shell-tools.git"
+  },
+  "keywords": [
+    "niosh",
+    "shell",
+    "tools",
+    "niosz"
+  ],
+  "author": "Fabio Gatto (fabio.gatto@live.it)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/niosz/niosz-shell-tools/issues"
+  },
+  "homepage": "https://github.com/niosz/niosz-shell-tools#readme"
+}
