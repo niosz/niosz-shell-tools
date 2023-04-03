@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 const fs = require("fs-extra");
 const shelljs = require("shelljs");
 if (fs.existsSync("node_modules")) fs.rmdirSync("node_modules",{recursive:true,force:true});

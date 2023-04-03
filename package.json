@@ -1,15 +1,15 @@
 {
   "name": "niosh",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "collection of shell commands for speed up work",
   "main": "index.js",
   "scripts": {
     "test": "node -e \"console.log('hello world!');\""
   },
   "bin": {
-    "niosh": "node ./index.js",
-    "npm-build": "node ./tools/npm/npm-build.js",
-    "npm-clean": "node ./tools/npm/npm-clean.js"
+    "niosh": "./index.js",
+    "npm-build": "./tools/npm/npm-build.js",
+    "npm-clean": "./tools/npm/npm-clean.js"
   },
   "repository": {
     "type": "git",
