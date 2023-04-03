@@ -1,13 +1,15 @@
 {
   "name": "niosh",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "collection of shell commands for speed up work",
   "main": "index.js",
   "scripts": {
     "test": "node -e \"console.log('hello world!');\""
   },
   "bin": {
-    "niosh": "node index.js"
+    "niosh": "node ./index.js",
+    "npm-build": "node ./tools/npm/npm-build.js",
+    "npm-clean": "node ./tools/npm/npm-clean.js"
   },
   "repository": {
     "type": "git",
@@ -24,5 +26,9 @@
   "bugs": {
     "url": "https://github.com/niosz/niosz-shell-tools/issues"
   },
-  "homepage": "https://github.com/niosz/niosz-shell-tools#readme"
+  "homepage": "https://github.com/niosz/niosz-shell-tools#readme",
+  "dependencies": {
+    "fs-extra": "^11.1.1",
+    "shelljs": "^0.8.5"
+  }
 }
